@@ -47,4 +47,5 @@ allprojects {
 	DeviceCentre.getInstance().refreshRemoteDevices(viomiToken); //搜索设备
 
    B.下次开启用户已登录，直接调用搜索设备
+	
 	DeviceCentre.getInstance().refreshRemoteDevices(viomiToken); //搜索设备
