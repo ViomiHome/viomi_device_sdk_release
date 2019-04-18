@@ -23,9 +23,8 @@ allprojects {
   DeviceCentre.getInstance().init(this, "android");  //初始化sdk,type设备类型（android, ios）,一开始没用用户登录可以默认安卓，后面根据登录用户是android还是ios进行填入。
 
 （2）设置设备回调监听
-	DeviceCentre.getInstance().addDeviceCallBack(devices -> { //回调设备列表
-   
-   });
+	
+	DeviceCentre.getInstance().addDeviceCallBack(devices -> { //回调设备列表});
 
 （3）A.当用户进行扫码登录时
   /**
@@ -39,6 +38,7 @@ allprojects {
      * @param type         设备类型
      * @return 是否成功
      */
+	
 	DeviceCentre.getInstance().loginUser("V3_rHJ218W-tNP0BxP3pq-qgHUUWlyM4QedQPMmZXo9uvoWXTAsyYsHzJHPMtK4KiDw8sR9nFCWUCaYsr8ryIyuxvARmUz3mYDPu_du2ghIEkwpD1AelWuA_MHRVKnjEp_W",
 	        "888819681", "UztI53R0UW_lRpvUxl8x1N35F8M", 7776000L, "HmacSHA1", "android");
 
