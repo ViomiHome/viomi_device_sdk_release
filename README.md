@@ -14,6 +14,7 @@ allprojects {
     }
 }
 （2）修改app路径下的build.gradle文件
+  
   dependencies {
   implementation 'com.viomi.devicelib:viomi-device-lib:1.4.8' 
 }
