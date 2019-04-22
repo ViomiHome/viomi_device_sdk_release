@@ -2,6 +2,7 @@
 一、引用sdk版本
 （1）修改项目路径下的build.gradle文件
 
+
 allprojects {
     repositories {
         ...
@@ -13,7 +14,10 @@ allprojects {
         }
     }
 }
+
+
 （2）修改app路径下的build.gradle文件
+
   
   dependencies {
   implementation 'com.viomi.devicelib:viomi-device-lib:1.4.8' 
